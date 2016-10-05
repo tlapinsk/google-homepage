@@ -83,18 +83,24 @@ form input[type="text"] {
 	height: 38px;
 	border: 1px solid #d9d9d9;
 	border-radius: 0px;
-	background-image: url('images/microphone.png') 7px 7px;
-	background-repeat: no-repeat;
-	background-position: right;
 }
 
 form input[type="text"]:hover {
 	border: 1px solid #a0a0a0;
 }
 
-/*#microphone {
-	height: 2%;
-	width: 2%;
-	position: absolute;
+form input[type="text"]:focus {
+	border: 1px solid #4d90fe;
+	outline: none;
+	color: black;
+	width: 477.5px;
+	font-size: 16px;
+	padding-left: 8px;
+}
 
-}*/
+#searchbar {
+	background-image: url('https://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png');
+	background-repeat: no-repeat;
+	background-position: 96.5% 50%;
+	background-size: 3.25%;
+}
